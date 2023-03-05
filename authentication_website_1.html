@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Be an instructor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .default-btn {
+            font-size: 16px;
+            color: #fff;
+            transition: all .5s ease;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            display: inline-flex;
+            padding: 16px 40px 12px;
+            background: linear-gradient(133.65deg,#6cc17e 2.24%,#098b99);
+            text-decoration: none;
+            }
+            .pages-banner-content{
+                font-size: 30px;
+                color: #fff;
+                text-align: center;
+                
+            }    
+            .single-transform {
+                background-color: #fff;
+                box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+                border-radius: 8px;
+                padding: 20px;
+            }
+            .register-tab {
+                text-align: center;
+                background-color: #fff;
+                box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+                padding: 10px;
+                border: none;
+                border-radius: 50px;
+                margin-bottom: 30px;
+            }
+            .justify-content-between {
+                justify-content: space-between!important;
+            }
+            .register-tab .nav-item .nav-link.active {
+                background: linear-gradient(133.65deg,#6cc17e 2.24%,#098b99);
+                color: #fff;
+                border: none;
+            }
+            .register-tab .nav-item .nav-link {
+                border: none;
+                width: 100%;
+                display: block;
+                padding: 10px 70px;
+                border-radius: 5px;
+                color: #0d0c0c;
+                font-weight: 600;
+                font-size: 18px;
+                border-radius: 50px;
+            }
+            .register-form .form-group {
+                margin-bottom: 30px;
+            }
+            
+            .form-control {
+                height: 55px;
+                color: #0d0c0c;
+                border: 1px solid #f2f0ef;
+                background-color: #f2f0ef;
+                font-size: 16px;
+                padding: 10px 20px;
+                width: 100%;
+                transition: all .5s ease;
+                border-radius: 5px;
+            }
+            .footer-area {
+                position: relative;
+                z-index: 1;
+            }
+            .bg-color-f6fafb {
+                background-color: #f6fafb;
+            }
+            .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+                margin-top: 34px;
+                margin-bottom: .5rem;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+            element.style {
+                opacity: 1;
+                transform: none;
+            }
+            .pages-banner-content h2 {
+                font-size: 60px;
+                color: #fff;
+            }
+            .desktop-nav .navbar .navbar-nav .nav-item.active a, .desktop-nav .navbar .navbar-nav .nav-item:focus a, .desktop-nav .navbar .navbar-nav .nav-item:hover a {
+                color: #098b99;
+            }
+            .copy-right-area p {
+                border-top: 1px solid #e3eef0;
+                padding-top: 20px;
+            }
+    </style>
+</head>
+<body style="overflow: unset;">
+    <div id="__next">
+        <div class="top-header-area bg-color-0f6c76" style="background-color:rgb(17, 102, 84)">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="header-left-content">
+                            <p>Keep learning with free resources during COVID-19. 
+                                <a class="read-more" href="/about-us/">Learn more 
+                                    <i class="ri-arrow-right-line">
+                                    </i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="header-right-content">
+                            <li>
+                                <a href="/become-an-instructor/">Become An Instructor</a>
+                            </li>
+                            <li class="auth-link">
+                                <a href="/auth/">
+                                    <i class="ri-arrow-right-line">
+                                    </i>
+                                     Signin
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="navbar" class="navbar-area">
+                <div class="desktop-nav">
+                    <div class="container-fluid">
+                        <div class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="/">
+                                <img src="	https://edmy-react.hibootstrap.com/images/logo.png" alt="logo">
+                            </a>
+                            <button class="navbar-toggler navbar-toggler-right collapsed" type="button">
+                                <span class="icon-bar top-bar">
+                                </span>
+                                <span class="icon-bar middle-bar">
+                                </span>
+                                <span class="icon-bar bottom-bar">
+
+                                </span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="others-options pe-0">
+                                    <!-- <form class="search-form style1">
+                                        <input type="text" class="form-control" placeholder="Search Courses" name="search" value>
+                                        <button type="submit" class="src-btn">
+                                            <i class="ri-search-line">
+                                            </i>
+                                        </button>
+                                    </form> -->
+                                </div>
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/">Home
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/courses/">Courses
+
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" style="transform: none;">
+                                        <a class="nav-link" href="/become-an-instructor/">Become An Instructor
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="others-options">
+                                <ul class="d-flex align-items-center">
+                                    <li>
+                                        <a class="cart" href="/checkout/">
+                                            <i class="bi bi-cart">
+                                                <!-- <img src="https://cdn-icons-png.flaticon.com/512/872/872243.png" alt="logo" style=""> -->
+
+                                            </i>
+                                            <!-- <span>0</span> -->
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="default-btn" style="box-shadow: 0 4px 25px rgb(9 139 153 / 30%);" href="/auth/">
+                                            <!-- <a class="default-btn" href="/auth/"> -->
+                                                <!-- <i class="ri-registered-line"></i> -->
+                                                <span>Register Now</span>
+                                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <section style="background-image: linear-gradient(to bottom right, rgb(141, 182, 46), #098b99);">
+                <div class="pages-banner-area ptb-100">
+                    <div class="container mt-4">
+                        <div class="pages-banner-content">
+                            <h2 class="w-100 mx-auto " data-projection-id="6" style= "padding: 100px;" >Authentication
+                            </h2>
+                            <!-- <ul style="opacity: 1; transform: none;">
+                                <li>
+                                    <a href="http://127.0.0.1:5500/New%20folder/website_1.html">Home</a>
+                                </li>
+                            </ul> -->
+                        </div>
+                    </div>
+                    <!-- <img src="	https://edmy-react.hibootstrap.com/images/page-banner-shape-1.svg" class="shape shape-1" alt="courses">
+                    <img src="	https://edmy-react.hibootstrap.com/images/page-banner-shape-2.svg" class="shape shape-2" alt="courses"> -->
+                    <!-- <img src="	https://edmy-react.hibootstrap.com/images/page-banner-shape-3.svg" class="shape shape-3" alt="courses"> -->
+                </div>
+            </section>
+            <div class="register-area ptb-100">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="register-img">
+                                <img src="	https://edmy-react.hibootstrap.com/images/register-img.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="register-form">
+                                <h2 style="transform: none;">
+                                    Create your account
+                                </h2>
+                                <ul class="register-tab nav nav-tabs justify-content-between" data-ison="false">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active">Register
+
+                                        </button>
+                                    </li>
+                                    <!-- <li class="nav-item" role="presentation">
+                                        <button class="nav-link " type="button">
+                                            Login
+                                        </button>
+                                    </li> -->
+                                </ul>
+                                <!-- <div class="tab-content" id="myTabContent">
+                                    <form data-projection-id="1" style="transform: none;">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Email" name="email" value="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Password" name="password" value="">
+                                        </div>
+                                        <button type="submit" class="default-btn" disabled="" data-projection-id="2">
+                                            Login Now
+                                        </button>
+                                    </form>
+                                </div> -->
+                                <div class="tab-content" id="myTabContent">
+                                    <form style="transform: none;">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="First Name" name="first_name" value>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Last Name" name="last_name" value>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email" name="email" value>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Password" name="password" value="">
+                                        </div>
+                                        <button type="submit" class="default-btn" disabled="">
+                                            Register Now
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-area bg-color-f6fafb pt-100 pb-70" style="background-color: rgb(232, 241, 235);">
+                <div class="container mt-3" style="margin-left: 130px;">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 mt-5">
+                            <div class="single-footer-widget" style="margin-left: -100px; padding: 38px">
+                                <a href="index.html" class="logo">
+                                    <img src="	https://edmy-react.hibootstrap.com/images/logo.png" class="main-logo" alt="logo" style="margin-left: 15px;">
+                                </a>
+                                <p style="padding: 15px; font-size: 14px; color: #656464;">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis mi suscipit bibendum sit amet, consectetur.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-4" style="padding: 28px;">
+                            <div class="single-footer-widget pl-40" style="margin-left: 30px;">
+                                <h3 style="font-size: 18px;">Quick Link</h3>
+                                <ul class="import-link fw-bold" style="padding: 0px; list-style: none;">
+                                    <li>
+                                        <a href="/courses/" style="text-decoration: none; color:#656464">Courses</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about-us/" style="text-decoration: none; color:#656464">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="/terms-conditions/" style="text-decoration: none; color:#656464">Terms &amp; Conditions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-4" style="padding: 28px;">
+                            <div class="single-footer-widget pl-40 " style="margin-left: 50px;">
+                                <h3 style="font-size: 18px;">Help Center</h3>
+                                <ul class="import-link fw-bold" style="list-style: none;padding: 0px;">
+                                    <li>
+                                        <a href="/contact-us/" style="text-decoration: none; color:#656464">Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="/faq/" style="text-decoration: none; color:#656464">Get Help</a>
+                                    </li>
+                                    <li>
+                                        <a href="/privacy-policy/" style="text-decoration: none; color:#656464">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mt-4 " style="padding: 20px;">
+                            <div class="single-footer-widget" style="margin-left: 30px;">
+                                <h3 style="font-size: 18px;" >Contact Info</h3>
+                                <ul class="info fw-bold" style="list-style: none; padding: 0px;">
+                                    <li>
+                                        <span style="color:#44a2d4;">Call Us:</span> <a href="tel:1-885-665-2022" style="text-decoration: none; color:#656464 ;">1-885-665-2022</a>
+                                    </li>
+                                    <li style="color: #656464; margin-bottom: 10px; margin-top: 7px;">
+                                        <span style="color:#44a2d4;">Address:</span> +7011 Vermont Ave, Los Angeles, CA 90044
+                                    </li>
+                                    <li>
+                                        <span style="color: #44a2d4;">Mail Us:</span> <a href="mailto:hello@edmy.com" style="text-decoration: none; color:#656464;">hello@edmy.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="	https://edmy-react.hibootstrap.com/images/footer-shape-1.png" class="shape shape-1" alt="footer">
+                <img src="	https://edmy-react.hibootstrap.com/images/footer-shape-2.png" class="shape shape-2" alt="footer"> -->
+            </div>
+            <div class="copy-right-area bg-color-f6fafb text-center" style="background-color:  rgb(232, 241, 235);">
+                <div class="container">
+                    <p>© Edmy 2023 is Proudly Owned by 
+                        <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a>
+                    </p>
+                </div>
+            </div>
+            <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
+            <div class="go-top" style="display: block;">
+                <i class="bx bx-chevron-up">
+                </i>
+                                </div>
+                            </div>
+                            <script id="__NEXT_DATA__" type="application/json">
+                                {"props":{"pageProps":{"courses":[{"id":"a06444c4-037f-4787-ba5f-9d28a8f1f4e1","title":"Business Bootcamp: 7 Weeks to Start Your Own Business","slug":"business-bootcamp-7-weeks-to-start-your-own-business","short_desc":"I'll teach you the skills necessary to stand out from the crowd. Whether it’s a personal passion or a business pursuit, you can learn video, photography, art, design, marketing skills and more here.","overview":"\u003cp\u003e\u003cstrong\u003e\u003cem\u003eLearn creative\u0026nbsp;skills, from\u0026nbsp;absolute beginner\u0026nbsp;to advanced mastery.\u0026nbsp;\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\u003cp\u003eVideo School\u0026nbsp;exists to help you succeed in life. Each course has been hand-tailored to teach a specific skill from photography and video to art, design and business.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e\u003cem\u003eWhether you’re trying to learn a new skill\u0026nbsp;from scratch, or want to refresh your memory on something you’ve learned in the past, you’ve come to the right place.\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eEducation makes the world a better place. Make your world better with new skills!\u003c/p\u003e\u003cp\u003eOur courses can be watched 24/7 wherever you are. Most are fully downloadable so you can take them with you. You can also view them on mobile devices with the Udemy mobile app.\u003c/p\u003e\u003cp\u003eAll\u0026nbsp;courses have a 30-day money-back guarantee so that you can check it out, make sure it’s the right course for you, and get a refund if it’s not!\u003c/p\u003e","latest_price":16.99,"before_price":84.99,"lessons":"52","duration":"6h 33m total length","image":"https://res.cloudinary.com/dev-empty/image/upload/v1660634163/icvgops1gqcosgv3dxde.jpg","access_time":"Lifetime","requirements":"\u003cul\u003e\u003cli\u003eStudents taking this class will be walked through the entire process of creating a business from scratch, so you do not need to do anything before this course begins. It will help you to already know some skills and ideas for a business that you would enjoy running.\u003c/li\u003e\u003cli\u003e\u003cbr\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e","what_you_will_learn":"\u003cul\u003e\u003cli\u003eStart your own business with any skill or passion of yours\u003c/li\u003e\u003cli\u003e\u003cbr\u003e\u003c/li\u003e\u003cli\u003eChoose your most profitable skill\u003c/li\u003e\u003cli\u003e\u003cbr\u003e\u003c/li\u003e\u003cli\u003eDefine your target audience \u0026amp; compete with other businesses\u003c/li\u003e\u003cli\u003e\u003cbr\u003e\u003c/li\u003e\u003cli\u003eBuild your online presence with a website, portfolio, testimonials, and social media profiles\u003c/li\u003e\u003cli\u003e\u003cbr\u003e\u003c/li\u003e\u003cli\u003eFind your first clients (and your next ones)\u003c/li\u003e\u003cli\u003e\u003cbr\u003e\u003c/li\u003e\u003cli\u003eManage a business (finances, taxes, expenses, etc.)\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e","who_is_this_course_for":"\u003cul\u003e\u003cli\u003eYou should take this course IF YOU ARE A COMPLETE BEGINNER, and have never created a business of your own\u003c/li\u003e\u003cli\u003eYou should take this course if you want to be a successful freelancer doing something you love\u003c/li\u003e\u003cli\u003eYou should take this course if you want to scale up your freelance business to an incorporated business\u003c/li\u003e\u003cli\u003eYou should not take this course if you don't want to spend the next 7+ weeks working on your business\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e","userId":"89aeed13-5b6e-4e0d-84af-a24793a83cd7","catId":"c54a81fe-9947-4ede-80f7-5b924bb1fa20","approved":true,"in_home_page":true,"in_home_page_set_at":"2022-08-16T07:17:56.000Z","is_class":false,"created_at":"2022-08-16T07:16:04.000Z","updated_at":"2022-08-16T07:17:56.000Z","user":{"first_name":"Admin","last_name":"User","profile_photo":"https://res.cloudinary.com/dev-empty/image/upload/v1661245253/wqsnxv0pfdwl2abdakf5.jpg"},"enrolments":[{"id":"b05304b6-b692-4ce8-9c08-949aed1fb298"},{"id":"d5a6df92-4672-4bf1-a6ce-d6e5907d0034"},{"id":"93a89ca6-f81c-484d-b901-ba67ae6c69b5"},{"id":"3a1d0495-454c-4e24-a175-2e2b01b6f055"},{"id":"f903d6c8-c579-4a3f-a9bb-5d5478a0c291"},{"id":"5790374d-077b-4c4e-a9e4-ada6e2a1d8d5"},{"id":"46a33e15-9850-4aef-afdb-b329debbbdd4"},{"id":"aa0e1769-ee5a-4852-bdfa-63c34a4b8d66"},{"id":"7858628f-3d1c-4905-9fa8-13a6f36662cc"},{"id":"c972b111-3858-4b7f-9d6c-58515e9fb165"},{"id":"61ad4a52-47ca-4398-8947-2c21b2169754"},{"id":"5f2d75e7-7096-4acc-aba9-985aac462c3c"},{"id":"03605fb8-e242-4f18-ab44-2c63d37c5d0c"}]},{"id":"142a183d-45f1-4447-9aad-64f736471988","title":"AWS Certified Security Specialty 2022","slug":"aws-certified-security-specialty-2022","short_desc":"AWS Certified Security - Specialty certification is one of the widely recognized security certifications across the industry. With the number of security breaches increasing every year, there is a huge demand for individuals who understands the security side of things, specifically Cloud-based Infrastructures.","overview":"\u003cp\u003eThis course is specially designed for the aspirants who intend to give the AWS Certified Security Specialty 2022 certification as well for those who want to master the security side of AWS.\u003c/p\u003e\u003cp\u003eThroughout the course, we explore various Real World scenarios and look into why do website gets hacked, what could have been done to prevent it, and learn the best practices related to Security for your AWS environment.\u003c/p\u003e\u003cp\u003eSince this is a Specialty level certification, it is very important that the candidate has a prior hands-on experience in AWS, and this also acts as a pre-requisite to this certification. We do start our journey into the security side of things from scratch.\u003c/p\u003e\u003cp\u003eWith tons of quizzes in order to prepare you for exams, Real-world scenarios, and great Support from our Instructor in-case of doubts, this course is all you need to master the Security side of AWS and gain the certification.\u003c/p\u003e\u003cp\u003eI look forward to seeing you join us in this exciting journey on\u0026nbsp;AWS\u0026nbsp;Security.\u003c/p\u003e","latest_price":34.99,"before_price":100,"lessons":"251","duration":" 28h 7m total length","image":"https://res.cloudinary.com/dev-empty/image/upload/v1662283339/r1ysgphohxnzf1t5a4m0.jpg","access_time":"Lifetime","requirements":"\u003cul\u003e\u003cli\u003eBasics of AWS\u003c/li\u003e\u003cli\u003eAWS Solutions Architect Associate or Equivalent Knowledge\u003c/li\u003e\u003c/ul\u003e","what_you_will_learn":"\u003cul\u003e\u003cli\u003eWill be prepared to give AWS Certified Security Specialty Exam\u003c/li\u003e\u003cli\u003eYou will be able to Master the Security aspect of AWS\u003c/li\u003e\u003cli\u003eGain deep insights about Enterprise-grade Security implementation.\u003c/li\u003e\u003cli\u003eWill be able to detect attacks and protect the AWS infrastructure from Hackers.\u003c/li\u003e\u003c/ul\u003e","who_is_this_course_for":"\u003cul\u003e\u003cli\u003eThose interested in gaining the AWS Security Specialty Certification\u003c/li\u003e\u003cli\u003eThose who wants to gain deep security insights related to AWS\u003c/li\u003e\u003c/ul\u003e","userId":"ee2ddc7c-08ec-430b-afd0-4da0184bcc4c","catId":"e532600c-8db4-41bd-8eb4-36b5cf67fc49","approved":true,"in_home_page":true,"in_home_page_set_at":null,"is_class":false,"created_at":"2022-08-16T07:36:03.000Z","updated_at":"2022-09-04T09:22:20.000Z","user":{"first_name":"Instructor","last_name":"User","profile_photo":"https://res.cloudinary.com/dev-empty/image/upload/v1661230727/rquq94qv4bpuvf7xnxyh.jpg"},"enrolments":[{"id":"ea396781-ffef-4bfe-8578-f83ce3902e2c"},{"id":"97846b3e-8f39-406c-9417-05f67ccac5a3"},{"id":"762048bd-5f4b-4fc5-8827-8f39a6959f57"},{"id":"c01181b0-e912-41a5-9b2c-2979ed99337d"},{"id":"f1986b23-32e3-4a87-8c11-b6ba97b40f88"},{"id":"7dfe0304-82dd-4a58-a97f-7a0a0f10acba"},{"id":"c210f01d-75e8-4c73-aaa5-b0d994a36875"},{"id":"a26bddae-50ff-40b0-b99d-3fda3bc84503"},{"id":"32b48b3b-8a08-4627-8f95-536324d19228"}]},{"id":"308cdeb3-b61f-4fca-a139-9bb219282dd3","title":"Complete workout : Complete Fitness Certification","slug":"complete-workout-complete-fitness-certification","short_desc":"Complete workout for Fitness, Weight loss, Weight gain, \u0026 Body Building ,Get Certification After completion!","overview":"\u003cp\u003eComplete Workout\u0026nbsp;For Weight Loss \u0026amp; Muscle Building\u003c/p\u003e\u003cp\u003eIn this course I will take you through the process of\u0026nbsp;\u003cstrong\u003ebecoming a fitness expert step by step\u003c/strong\u003e. You will learn everything you need to know about the fundamentals of good training programs and how to design your very own program for you or your clients.\u003c/p\u003e\u003cp\u003eI created this course for stay-at-home moms, college students, and anybody passionate about health and fitness who wants to create extra income or make a living doing what they love… fitness!\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e\u003cem\u003eComplete workout for Fitness, Weight loss, Weight gain, \u0026amp; Body Building\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eBy the end of this course you will get Fitness Certification from Institute of Pakistan!\u003c/p\u003e\u003cp\u003e· Learn weight loss for real \u0026amp; forever in A simple Manner\u003c/p\u003e\u003cp\u003e· How to lose weight very fast\u003c/p\u003e\u003cp\u003e· Improved fitness through exercise\u003c/p\u003e\u003cp\u003e· We will learn how we can contour our body shape\u003c/p\u003e","latest_price":39.99,"before_price":50,"lessons":"50","duration":"3h 25m total length","image":"https://res.cloudinary.com/dev-empty/image/upload/v1662268371/xbablxdvrkt03pfr4sfw.jpg","access_time":"Lifetime","requirements":"\u003cul\u003e\u003cli\u003ePassion for fitness\u003c/li\u003e\u003cli\u003eCommitment to complete the course\u003c/li\u003e\u003cli\u003eAccess To Gym and Gym Equipment\u003c/li\u003e\u003cli\u003eComfortable clothes and shoes\u003c/li\u003e\u003c/ul\u003e","what_you_will_learn":"\u003cul\u003e\u003cli\u003eWe will learn how to do correctly warm up\u003c/li\u003e\u003cli\u003eWe will learn why warm up is important\u003c/li\u003e\u003cli\u003eImproved fitness through exercises\u003c/li\u003e\u003cli\u003eWe will learn how we can contour our body shape\u003c/li\u003e\u003c/ul\u003e","who_is_this_course_for":"\u003cul\u003e\u003cli\u003eThis course are for those who want to live life with fitness\u003c/li\u003e\u003cli\u003eThis course are for those who want to know about simple \u0026amp; easy exercises\u003c/li\u003e\u003cli\u003eThis course is for those who want to make a change in their lifestyle.\u003c/li\u003e\u003cli\u003eThis course is for those who want to lose thigh or hip fat, belly fat, side or love handles\u003c/li\u003e\u003c/ul\u003e","userId":"ee2ddc7c-08ec-430b-afd0-4da0184bcc4c","catId":"3b0eebe9-c3a9-4250-be93-40b58ee1d40c","approved":true,"in_home_page":true,"in_home_page_set_at":null,"is_class":false,"created_at":"2022-08-24T06:16:08.000Z","updated_at":"2022-09-04T05:12:51.000Z","user":{"first_name":"Instructor","last_name":"User","profile_photo":"https://res.cloudinary.com/dev-empty/image/upload/v1661230727/rquq94qv4bpuvf7xnxyh.jpg"},"enrolments":[{"id":"957de544-df94-4384-92aa-19cfb0f84903"},{"id":"f327ad0a-380e-42f8-ab18-da2abeb95dad"},{"id":"7c77d9ef-bc59-4917-bbfd-2ba3ab1a8f86"},{"id":"11f6d2a9-03fc-426d-9971-b4b8f3c7ac52"},{"id":"395913ee-a343-465e-ba0d-f58325dfdf04"},{"id":"ee021d9c-9138-43c8-b93a-c8b9aac1fece"},{"id":"f8c63482-e0fc-4f09-ac8b-0ae1899e7559"},{"id":"68662d57-2399-44df-b51a-bf3d77ed7030"},{"id":"0afcd611-c966-46bb-af34-98c1065d3846"},{"id":"bd421bc7-096a-47b4-8202-43c5ec546060"},{"id":"9eecae48-18c2-4c2d-aee7-c01875aa6c83"},{"id":"fbcea3ba-8c19-412e-8a6d-3a1cef79d3b4"},{"id":"a7f1cfa7-530a-4dc9-9e4a-0f087d1a75a4"},{"id":"b2ecae36-d6e1-4055-ae03-ac626224fa7e"},{"id":"b25234eb-6925-4bc1-86d4-13d1fb7218b1"},{"id":"ef0e6df1-1aa5-4a6b-bc7e-1ad085160a83"}]},{"id":"d92f38eb-e616-414c-be0c-54e79a6809c7","title":"Node.js for Beginners - Become a Node js Developer","slug":"nodejs-for-beginners-become-a-node-js-developer","short_desc":"I don't know about you,but regular classes bore me, and that is why on this Node.js course we make it fun to learn LOTS of cool things. This course is meant for total beginners in the NodeJs world. ","overview":"\u003cp\u003e\u003cstrong\u003eWhat is NODEjs or Node.js ?\u0026nbsp;\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eFirst of all let me just say that Node.js is the most popular technology right now, and it's REPO\u0026nbsp;website is the biggest in the WORLD, now let's begin......\u003c/p\u003e\u003cp\u003eSome of us\u0026nbsp;call it\u003cstrong\u003e\u0026nbsp;Node.js, NODE,\u003c/strong\u003e\u0026nbsp;or just\u0026nbsp;\u003cstrong\u003eNodeJs\u003c/strong\u003e\u0026nbsp;but they all mean the same thing. NodeJs is a runtime to use\u0026nbsp;JavaScript on servers. A runtime acts like a middle-man and in this case NodeJs is helping us use Javascript to handle system processes, files and even databases. NodeJs is written in C++ which is a powerful high level programming\u0026nbsp;language that does LOTS\u0026nbsp;of cool things.\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eMy approach\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eI'm profesional but not boring\u003c/p\u003e\u003cp\u003eI'm a regular person just like you - your mentor, teacher!\u003c/p\u003e\u003cp\u003eI joke sometimes, so that you won't fall asleep (I know how that is)\u003c/p\u003e\u003cp\u003eMy teaching method\u0026nbsp;are Unorthodox - look it up :)\u0026nbsp;\u003c/p\u003e","latest_price":16.99,"before_price":84.99,"lessons":"26","duration":"23h 10m total length","image":"https://res.cloudinary.com/dev-empty/image/upload/v1660632448/qlhb9q20dvxs8lpajjsw.jpg","access_time":"Lifetime","requirements":"\u003cul\u003e\u003cli\u003eSome Javascript is needed to learn NodeJs\u003c/li\u003e\u003cli\u003eSome HTML is needed for this course\u003c/li\u003e\u003c/ul\u003e","what_you_will_learn":"\u003cul\u003e\u003cli\u003eTo build Amazing NodeJS applications like the CMS we build here using Express, MongoDB and more\u003c/li\u003e\u003cli\u003eTo deploy Nodejs Apps on the Cloud\u003c/li\u003e\u003cli\u003eTo create Login and Registration system using NodeJS\u003c/li\u003e\u003cli\u003eTo use Mongoose (ODM) - very similar to ORM\u003c/li\u003e\u003cli\u003eTo create custom events\u003c/li\u003e\u003cli\u003eTo import and export data\u003c/li\u003e\u003cli\u003eTo use the Express FrameWork\u003c/li\u003e\u003cli\u003eTo handle HTTP requests\u003c/li\u003e\u003cli\u003eTo deal with Files\u003c/li\u003e\u003cli\u003eTo use WebSockets - (Chat application)\u003c/li\u003e\u003cli\u003eTo use PassportJS a module to login to Facebook, Twitter, Google and more\u003c/li\u003e\u003cli\u003eTo use Template Engines like Handlebars\u003c/li\u003e\u003cli\u003eAnd LOTS more.......\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e","who_is_this_course_for":"\u003cul\u003e\u003cli\u003eIf you are a TOTAL beginner for NodeJs you should take this course\u003c/li\u003e\u003cli\u003eIf you are looking for a better career you should take this course\u003c/li\u003e\u003cli\u003eIf you are looking to UP your salary as developer you should take this course\u003c/li\u003e\u003cli\u003eIf you have tried to learn NodeJS before and it was too hard - I make this EASY!\u003c/li\u003e\u003cli\u003eIf you are trying to get into the Angular World\u003c/li\u003e\u003cli\u003eIf you want to become a great Web Developer with a lot of success\u003c/li\u003e\u003cli\u003eIf you just need to make some serious income as a developer\u003c/li\u003e\u003c/ul\u003e","userId":"89aeed13-5b6e-4e0d-84af-a24793a83cd7","catId":"763283f5-3076-4b06-acba-e33d1f2a0db7","approved":true,"in_home_page":true,"in_home_page_set_at":"2022-08-16T07:17:57.000Z","is_class":false,"created_at":"2022-08-16T06:47:29.000Z","updated_at":"2022-08-16T07:17:57.000Z","user":{"first_name":"Admin","last_name":"User","profile_photo":"https://res.cloudinary.com/dev-empty/image/upload/v1661245253/wqsnxv0pfdwl2abdakf5.jpg"},"enrolments":[{"id":"ca65901d-525f-45fc-bb18-6f87624035e2"},{"id":"f360912a-554b-4666-826c-d81d84268b0d"},{"id":"786c70ad-0ae7-4ced-acc4-b4e2ac36d712"},{"id":"384c9c04-0da8-444a-bb8a-0df31ce8d181"},{"id":"a48efc8c-b997-42c0-b263-ad9fd97d5442"},{"id":"50a81689-b748-4ad3-876a-c07dca27f6cd"}]}],"categories":[{"id":"e532600c-8db4-41bd-8eb4-36b5cf67fc49","name":"IT \u0026 Software","slug":"it-software","created_at":"2022-08-16T06:40:39.000Z","updated_at":"2022-08-16T06:40:39.000Z"},{"id":"88d690b5-901e-4198-a22c-0742b2a8317d","name":"BIJAY","slug":"bijay","created_at":"2022-11-22T09:26:36.000Z","updated_at":"2022-11-22T09:26:36.000Z"},{"id":"66c37dee-1c15-4ec3-84c4-3037c5ec569d","name":"hicategories","slug":"hicategories","created_at":"2022-12-06T11:03:13.000Z","updated_at":"2022-12-06T11:03:13.000Z"},{"id":"78410a96-49f3-4e0c-b16d-22991f5c6222","name":"tyu","slug":"tyu","created_at":"2023-02-20T06:27:45.000Z","updated_at":"2023-02-20T06:27:45.000Z"},{"id":"6387f943-49ac-48c9-b270-afda93feb165","name":"Lifestyle","slug":"lifestyle","created_at":"2022-08-16T06:41:59.000Z","updated_at":"2022-08-16T06:41:59.000Z"},{"id":"99324383-0ced-4288-9e0b-e281f1d052c1","name":"Masak","slug":"masak","created_at":"2023-02-15T16:43:35.000Z","updated_at":"2023-02-15T16:43:35.000Z"},{"id":"8955ae82-ba74-4435-8ff5-e52f76594ece","name":"Personal Development","slug":"personal-development","created_at":"2022-08-16T06:41:23.000Z","updated_at":"2022-08-16T06:41:23.000Z"},{"id":"9ae93b15-0ec2-4b42-ab02-337d0e91eaa0","name":"Teaching \u0026 Academics","slug":"teaching-academics","created_at":"2022-08-16T06:42:55.000Z","updated_at":"2022-08-16T06:42:55.000Z"},{"id":"3d40c4c4-8a8b-4ae0-acd9-a6e268008bda","name":"ruffed","slug":"ruffed","created_at":"2023-01-06T16:02:55.000Z","updated_at":"2023-01-06T16:02:55.000Z"},{"id":"b6648430-1f56-4cb5-8a47-58d4d944e7c6","name":"asdasd","slug":"asdasd","created_at":"2022-12-01T00:27:42.000Z","updated_at":"2022-12-01T00:27:42.000Z"},{"id":"c54a81fe-9947-4ede-80f7-5b924bb1fa20","name":"Business","slug":"business","created_at":"2022-08-16T06:40:03.000Z","updated_at":"2022-08-16T06:40:03.000Z"},{"id":"9757989d-24a0-42b7-ab56-11673f671800","name":"Marketing","slug":"marketing","created_at":"2022-08-16T06:41:46.000Z","updated_at":"2022-08-16T06:41:46.000Z"}]},"__N_SSP":true},"page":"/","query":{},"buildId":"jX9Af2hk5tWdr_7onYivo","isFallback":false,"gssp":true,"appGip":true,"scriptLoader":[]}</script>
+                            <script src="https://meet.jit.si/external_api.js" data-nscript="afterInteractive"></script>
+                            <next-route-announcer>
+                                <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;">Edmy - LMS &amp; Education System with React + Nextjs</p>
+                            </next-route-announcer>
+                            <script src="/_next/static/chunks/pages/about-us-18fe1d1232bac968.js"></script>
+                            <script src="/_next/static/chunks/pages/become-an-instructor-f00846482648e1d7.js"></script>
+                            <script src="/_next/static/chunks/pages/auth-aee4fea4df926d58.js"></script>
+                            <script src="/_next/static/chunks/939-f97098fc089054a7.js"></script>
+                            <script src="/_next/static/chunks/5665-61f0a6d20044eb2f.js"></script>
+                            <script src="/_next/static/chunks/pages/courses-c0d41b76a367ec30.js"></script>
+                            <script src="/_next/static/chunks/1833-3cdfdc44c803c430.js"></script>
+                            <script src="/_next/static/chunks/pages/checkout-04cbf4ea7cc559e3.js"></script>
+                            <script src="/_next/static/chunks/1129-9b464556a64ce41c.js"></script>
+                            <script src="/_next/static/chunks/pages/course/%5Bslug%5D-80a03affed7dade1.js"></script>
+                            <script src="/_next/static/chunks/pages/learning/my-courses-55fc7bc82a7a812e.js"></script>
+                            <script src="/_next/static/chunks/pages/contact-us-613235e1b1150665.js"></script>
+                            <script src="/_next/static/chunks/1876-ddac719cc10a3726.js"></script>
+                            <script src="/_next/static/chunks/pages/faq-e251fb00e9cceeac.js"></script>
+                            <script src="/_next/static/chunks/pages/privacy-policy-fc1245e00a99d9a1.js"></script>
+                            <script src="/_next/static/chunks/pages/terms-conditions-003395124aa13d0d.js"></script>
+                        
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function () {
+            setInterval(function () {
+                $('.shape-1').fadeIn(1000).delay(2000).fadeOut(1500).delay(3000).fadeIn(1500);
+                $('.shape-2').fadeIn(1000).delay(2000).fadeOut(1500).delay(4000).fadeIn(1500);
+                $('.shape-3').fadeIn(1000).delay(2000).fadeOut(1500).delay(5000).fadeIn(1500);
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
